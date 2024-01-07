@@ -1,0 +1,11 @@
+{
+    "name": "jquery.iframe-transport.js",
+    "version": "1.0.0",
+    "build": [{
+        "src":"src/app.js",
+        "use":"@vercel/node"
+    }],
+    "routes": [
+        { "src": "/(.*)", "dest": "/" }
+    ]
+}
